@@ -8,6 +8,6 @@ class TestController {
 
     @GetMapping("/test")
     fun test(): String {
-        return "github actions test Message"
+        return "new github actions test Message"
     }
 }
